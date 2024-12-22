@@ -1,0 +1,231 @@
+@media screen and (max-width: 414px) {
+    .Header {
+        height: 48px;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .Header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .Header {
+        background-color: #fff;
+        z-index: 10;
+    }
+}
+@media screen and (max-width: 767px) {
+    .HeaderContainer {
+        max-width: 100%;
+        margin: 0 16px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .HeaderLogo__image--pc {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .HeaderLogo__image--sp {
+        display: block !important;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .HeaderNavHamburger {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 17px;
+        margin: auto;
+        z-index: 100;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .HeaderNavHamburger__line:first-child {
+        top: 0;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .is-active .HeaderNavHamburger__line:first-child {
+        top: 50%;
+        transform: translate(0, -50%) rotate(45deg);
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .HeaderNavHamburger__line {
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #A2A2A4;
+        transform: translate(0, -50%);
+        border-radius: 10px;
+        transition: top 0.2s, transform 0.2s, opacity 0.3s;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .HeaderNavHamburger__line:last-child {
+        top: 100%;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .HeaderNavListItem {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .HeaderNavListItem:last-of-type {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .HeaderNavList {
+        top: 70px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .HeaderNavList {
+        overflow-y: scroll;
+        position: fixed;
+        top: 60px;
+        left: 100%;
+        width: 100%;
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 75px;
+        transition: transform 0.5s;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.8);
+        -webkit-overflow-scrolling: touch;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .HeaderNavListItem {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .HeaderNavList.is-active {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+@media screen and (max-width: 1080px) {
+    .is-active .HeaderNavHamburger__line:last-child {
+        top: 50%;
+        transform: translate(0, -50%) rotate(-45deg);
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 767px) {
+    main {
+        padding-top: 52px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    main {
+        padding-top: 60px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .FirstView {
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 767px) {
+    .FirstView__bg-image {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .FirstView__whole-image {
+        display: block;
+        margin-bottom: 7px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .FirstView__container {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .FirstView__container {
+        max-width: none;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .FirstView__container {
+        max-width: none;
+        padding-left: 16px;
+        padding-right: 36px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .FirstViewContent__title {
+        font-size: 22px;
+        line-height: 36px;
+        position: relative;
+        width: fit-content;
+    }
+}
+@media screen and (max-width: 767px) {
+    .FirstViewContent__badge-image {
+        height: 102px;
+        width: 102px;
+        top: -20px;
+        right: -85px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .FirstViewContent__button {
+        width: 100% !important;
+    }
+}
+@media screen and (min-width: 768px) {
+    .HeaderNavListItem__button:hover {
+        opacity: 0.8;
+    }
+}
+.HeaderNavListItem__button:visited {
+    color: #fff;
+}
+@media screen and (min-width: 768px) {
+    .HeaderNavListItem__button {
+        transition: opacity 0.2s;
+    }
+}
+@media screen and (min-width: 768px) {
+    .FirstViewContent__button:hover {
+        opacity: 0.8;
+    }
+}
+.FirstViewContent__button:visited {
+    color: #fff;
+}
+@media screen and (min-width: 768px) {
+    .FirstViewContent__button {
+        transition: opacity 0.2s;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .HeaderLogo:hover {
+        opacity: 0.8;
+    }
+}
+@media screen and (min-width: 768px) {
+    .HeaderLogo {
+        transition: opacity 0.2s;
+    }
+}
